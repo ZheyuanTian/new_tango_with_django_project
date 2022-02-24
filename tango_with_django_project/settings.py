@@ -33,7 +33,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
+LOGIN_URL = 'rango:login'
 # Application definition
 
 INSTALLED_APPS = [
@@ -133,3 +133,5 @@ STATIC_URL = '/static/'
 MEDIA_ROOT = MEDIA_DIR
 
 MEDIA_URL = '/media/'
+
+
